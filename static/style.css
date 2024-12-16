@@ -1,0 +1,196 @@
+.user{
+    float: left;
+    width: 50%;
+    margin: 0% 0% 0% 25%;
+    background-color: rgb(115, 151, 234);
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 20px 30px 20px rgb(158, 176, 235);
+    border-radius: 10px;
+}
+.payment, .payment_due{
+    float: left;
+    width: 50%;
+    margin: 8% 0% 0% 25%;
+    background-color: rgb(115, 151, 234);
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 20px 30px 20px rgb(158, 176, 235);
+}
+.user_login{
+    float: left;
+    width: 50%;
+    margin: 8% 0% 0% 25%;
+    background-color: rgb(115, 151, 234);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 20px 30px 20px rgb(158, 176, 235);
+}
+.user input, .payment_due input{
+    float: left;
+    width: 60%;
+    margin: 2% 0% 0% 19%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+.user button, .payment_due button{
+    float: left;
+    width: 15%;
+    margin: 2% 0% 3% 43%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+.user_login input, .payment input{
+    float: left;
+    width: 60%;
+    margin: 2% 0% 0% 19%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+.user_login button, .payment button{
+    float: left;
+    width: 15%;
+    margin: 2% 0% 3% 43%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+
+.payment select{
+    float: left;
+    width: 61.5%;
+    margin: 2% 0% 0% 19%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+
+.login{
+    float: left;
+    width: 40%;
+    margin: 10% 0% 0% 32%;
+
+}
+.login a{
+    float: left;
+    width: 45%;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(115, 151, 234);
+    text-align: center;
+    text-decoration: none;
+    margin: 2% 0% 2% 3%;
+    box-shadow: 10px 20px 10px rgb(158, 176, 235);
+}
+.register{
+    float: left;
+    width: 60%;
+    margin: 10% 0% 0% 22%;
+
+}
+.register a{
+    float: left;
+    width: 42%;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(115, 151, 234);
+    text-align: center;
+    text-decoration: none;
+    margin: 2% 0% 2% 3%;
+    box-shadow: 10px 20px 10px rgb(158, 176, 235);
+}
+
+.top h1{
+    font-family:'salita';
+    color:aliceblue;
+    float: left;
+    font-size: 45px;
+    
+  }
+  .top a {
+    color: white;
+    text-decoration: none;
+
+  }
+  .top li{
+    display: inline;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin: 3% 5% 2% 0%;
+  }
+  .top a:hover {
+   text-shadow: 3px 3px 3px white;
+    transition: 0.5s;
+  }
+.top{
+    float: left;
+    width: 100%;
+   margin: 0% 0% 0% 0%;
+   
+    background:#431692;
+
+  }
+  body{
+    background-color: rgb(157, 212, 212);
+    margin: 0%;
+  }
+  .last-div{
+    float: left;
+    width: 100%;
+    background:#431692;
+    margin-top:20%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  .middle h1{
+    float: left;
+    text-align: center;
+    margin:10% 0% 0% 30%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    font-size:40px;
+  }
+  .first-div{
+    float:left;
+    width:50%;
+    background-color: rgb(115,151,253);
+    margin:5% 50% 0% 25%;
+    padding: 1.5% 0% 2% 0%;
+    text-align:center;
+    border-radius: 5px;
+    height:50%;
+
+}
+.first-div input,.first-div button{
+    float: left;
+    width: 60%;
+    margin: 2% 0% 0% 19%;
+    border: 1px solid black;
+    padding: 1.5% 0.5% 1.5% 0.5%;
+    border-radius: 8px;
+}
+.btn{
+    text-align:center;
+    margin-left:36px;
+}
+.s{
+    float: left;
+    width: 100%;
+    margin: 50% 0% 0% 0%;
+ }

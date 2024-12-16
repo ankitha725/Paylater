@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% block title %}Userlogin{% endblock%}
+{% block content %}
+        <div class="user_login">
+            <h1>Please Login to Your Paylater Account</h1>
+            <form action="/userlogin" method="post">
+                <input type="email" required placeholder="Enter Email Id" name="email">
+                <input type="password" required placeholder="Enter Password" name="password">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+{%endblock%}

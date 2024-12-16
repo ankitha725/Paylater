@@ -1,0 +1,13 @@
+{% extends "index.html" %}
+{% block title %}Payment{% endblock%}
+{% block content %}
+<div class="first-div">
+    <h1>Merchant</h1>
+    <form action="/merchentr" method="post">
+        <input type="id" placeholder="Enter id" name="id">
+        <input type="App" placeholder="Choose app" name="App">
+        <input type="Transaction" placeholder="Enter tnx_rate" name="transaction">
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+{%endblock%}

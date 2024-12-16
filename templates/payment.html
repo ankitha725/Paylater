@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+{% block title %}Payment{% endblock%}
+{% block content %}
+        <div class="payment">
+            <h1>Please Pay for Your Purchase</h1>
+            <form action="/pay" method="post">
+                <input type="email" required placeholder="Enter Email Id" name="email">
+                <select name="App" required>
+                    <option value="" selected disabled>Choose App</option>
+                    <option value="Amazon">Amazon</option>
+                    <option value="FlipKart">FlipKart</option>
+                    <option value="Myntra">Myntra</option>
+                    <option value="Meesho">Meesho</option>
+                    <option value="Ajio">Ajio</option>
+                </select>
+                <select name="item" required>
+                    <option value="" selected disabled>Item</option>
+                    <option value="Laptop">Laptop</option>
+                    <option value="Mobiles">Mobiles</option>
+                    <option value="Groceries">Groceries</option>
+                    <option value="Sarees">Sarees</option>
+                    <option value="Shoes">Shoes</option>
+                </select>
+                <input type="number" required placeholder="Enter Amount" name="amount">
+                
+                <button type="submit">Submit</button>
+{% endblock%}

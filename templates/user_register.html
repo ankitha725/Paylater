@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+{% block title %}Userregistration{% endblock%}
+{% block content %}
+        <div class="user">
+            <h1>Please Register to Access Paylater Service</h1>
+            <form action="/user_register" method="post">
+                <input type="text" required placeholder="Enter UserID" name="id">
+                <input type="text" required placeholder="Enter Name" name="name">
+                <input type="email" required placeholder="Enter Email Id" name="email">
+                <input type="number" required placeholder="Enter PhoneNo" name="phone">
+                <input type="text" required placeholder="Enter Address" name="address">
+                <input type="number" required placeholder="Enter Credit Limit" name="credit">
+                <input type="password" required placeholder="password" name="password">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+{%endblock%}
